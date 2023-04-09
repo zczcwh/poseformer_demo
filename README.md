@@ -1,8 +1,9 @@
 # Demo visualization code for our PoseFormer paper
 
 - Create a conda environment: ```conda create -n mhformer python=3.7```
-- Download cudatoolkit=11.0 from [here](https://developer.nvidia.com/cuda-11.0-download-archive) and install 
+- Install pytorch based on your machine. For example:
 - ```pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html```
+- Next, Install required packages:
 - ```pip3 install -r requirements.txt```
 
 ## Download pretrained model for video demo
